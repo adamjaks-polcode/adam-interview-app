@@ -1,0 +1,1 @@
+import ServicesSection from '../sections/ServicesSection';const Services = () => {  return (    <ServicesSection />  )};export default Services;

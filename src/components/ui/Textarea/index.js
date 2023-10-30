@@ -1,0 +1,1 @@
+const Textarea = (  {    placeholder = '',    ...props  }) => {  return (    <textarea      className="border border-white p-2 text-white w-full bg-transparent resize-none h-40"      placeholder={placeholder}      {...props}    />  )};export default Textarea;

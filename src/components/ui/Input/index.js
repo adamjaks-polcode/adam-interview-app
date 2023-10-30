@@ -1,0 +1,1 @@
+const Input = (  {    placeholder = '',    ...props  }) => {  return (    <input      className="border border-grey-light text-grey-light p-2 text-white w-full bg-transparent"      placeholder={placeholder}      {...props}    />  )};export default Input;

@@ -1,0 +1,1 @@
+const Button = (  {    text = '',    type = 'button',    ...props  }) => {  return (    <button      className="px-10 py-4 bg-primary text-white font-semibold w-fit hover:opacity-90 duration-200"      type={type}      {...props}    >      { text }    </button>  )};export default Button;

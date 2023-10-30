@@ -1,0 +1,1 @@
+const Footer = () => {  return (    <div className="bg-primary text-center text-white font-semibold text-sm py-6">      Copyright © 2019 Robi-pixel All Right Reserved.    </div>  )};export default Footer;
