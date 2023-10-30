@@ -14,7 +14,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App font-poppins">
+      <div className="App font-poppins bg-background-darken">
         <div><Toaster /></div>
         <Hero commentsRef={commentsRef} />
         <Routes>
